@@ -1,19 +1,12 @@
 {
-  "dependencies": {
-    "mongodb": "^6.3.0"
-  },
-  "name": "foodmine-react",
+  "name": "mern-deploy",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
-    "start": "cd backend && npm start",
-    "prebuild": "cd backend && npm install & cd frontend && npm install",
-    "build": "cd frontend && npm run build",
-    "postbuild": "mv -f frontend/build backend/src/public"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "description": ""
+  "license": "ISC"
 }
